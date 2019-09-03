@@ -6,12 +6,21 @@ import { AppComponent } from "./app.component";
 
 import { ServerComponent } from "./server/server.component";
 import { ServersComponent } from "./servers/servers.component";
-import { WarningAlertComponent } from './warning-alert/warning-alert.component';
-import { SucessAlertComponent } from './sucess-alert/sucess-alert.component';
+import { WarningAlertComponent } from "./warning-alert/warning-alert.component";
+import { SucessAlertComponent } from "./sucess-alert/sucess-alert.component";
+import { FormsModule } from "@angular/forms";
+import { Assignment24Component } from './assignment24/assignment24.component';
 
 @NgModule({
-  declarations: [AppComponent, ServerComponent, ServersComponent, WarningAlertComponent, SucessAlertComponent],
-  imports: [BrowserModule, AppRoutingModule],
+  declarations: [
+    AppComponent,
+    ServerComponent,
+    ServersComponent,
+    WarningAlertComponent,
+    SucessAlertComponent,
+    Assignment24Component
+  ],
+  imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent]
 })

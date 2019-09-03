@@ -1,12 +1,18 @@
 <p>servers works!</p>
 <label for="ServerName">Server Name</label>
-<input
+<!-- <input
   type="text"
   class="form-control"
   placeholder="enter name"
   (input)="onUpdateServerName($event)"
+/> -->
+<input
+  type="text"
+  class="form-control"
+  placeholder="enter name"
+  [(ngModel)]="serverName"
 />
-<p>{{ serverName }}</p>
+<!-- <p>{{ serverName }}</p> -->
 
 <button
   class="btn btn-primary"
