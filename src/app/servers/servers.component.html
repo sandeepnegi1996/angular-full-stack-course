@@ -22,7 +22,8 @@
   Add Servers
 </button>
 
-<p>{{ serverCreationStatus }}</p>
+<!-- <p>{{ serverCreationStatus }}</p> -->
+<p *ngIf="serverCreated">{{ serverCreationStatus }}</p>
 
 <!-- this is string interpolation
 <p>{{ addNewServers }}</p>
@@ -31,3 +32,4 @@
 -->
 <app-server></app-server>
 <app-server></app-server>
+<app-testing-display-serv></app-testing-display-serv>

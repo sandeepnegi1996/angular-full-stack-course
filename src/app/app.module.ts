@@ -10,6 +10,7 @@ import { WarningAlertComponent } from "./warning-alert/warning-alert.component";
 import { SucessAlertComponent } from "./sucess-alert/sucess-alert.component";
 import { FormsModule } from "@angular/forms";
 import { Assignment24Component } from './assignment24/assignment24.component';
+import { TestingDisplayServComponent } from './testing-display-serv/testing-display-serv.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { Assignment24Component } from './assignment24/assignment24.component';
     ServersComponent,
     WarningAlertComponent,
     SucessAlertComponent,
-    Assignment24Component
+    Assignment24Component,
+    TestingDisplayServComponent
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],

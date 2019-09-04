@@ -39,3 +39,10 @@ doing something as some event occurs in html like click event
 ### Two-Way Binding
 
 doing something simulateneously
+
+#### ng-model can be used for two way binding
+
+#### ng if is a structural directive that can enable or disable the the DOM elements
+
+we just have to put true or false inside it
+as soon as button is clicked we will make the vaiable true and that value and put that varibale inside the ng if
