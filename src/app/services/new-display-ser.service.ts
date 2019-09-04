@@ -8,6 +8,6 @@ export class NewDisplaySerService {
   //creating a funcion which will be called at various components
 
   display() {
-    return 'calling display service';
+    return 'calling display service from the different laptop';
   }
 }
