@@ -1,0 +1,17 @@
+<div>
+  <input
+    type="text"
+    class="form-control"
+    [(ngModel)]="username"
+    [(ngModel)]="checkUserNameLength"
+  />
+  <p>This is the entered username:- {{ username }}</p>
+
+  <button
+    class="btn btn-danger"
+    [disabled]="username === ''"
+    (click)="username = ''"
+  >
+    Change Uername
+  </button>
+</div>
