@@ -12,6 +12,7 @@ export class ServersComponent implements OnInit {
   serverName = 'this is server name';
   serverCreated = false;
 
+  serverArray = ['test1', 'test2'];
   constructor() {
     setInterval(() => {
       this.addNewServers = true;
@@ -22,6 +23,7 @@ export class ServersComponent implements OnInit {
     this.serverCreationStatus =
       'server is created now and the name is ' + this.serverName;
     this.serverCreated = true;
+    this.serverArray.push(this.serverName);
   }
 
   onUpdateServerName(event: any) {

@@ -11,6 +11,10 @@ import { SucessAlertComponent } from "./sucess-alert/sucess-alert.component";
 import { FormsModule } from "@angular/forms";
 import { Assignment24Component } from './assignment24/assignment24.component';
 import { TestingDisplayServComponent } from './testing-display-serv/testing-display-serv.component';
+import { Assignment32Component } from './assignment32/assignment32.component';
+
+
+import { NbThemeModule } from '@nebular/theme';
 
 @NgModule({
   declarations: [
@@ -20,7 +24,8 @@ import { TestingDisplayServComponent } from './testing-display-serv/testing-disp
     WarningAlertComponent,
     SucessAlertComponent,
     Assignment24Component,
-    TestingDisplayServComponent
+    TestingDisplayServComponent,
+    Assignment32Component
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],
